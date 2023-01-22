@@ -18,4 +18,6 @@ fi
 mount -o bind ${MODDIR}/system/oplus_vrr_config.json /my_product/etc/oplus_vrr_config.json
 
 cp -a ${MODDIR}/system/multimedia_pixelworks_game_apps.xml /data/system/multimedia_pixelworks_game_apps.xml
+cp -a ${MODDIR}/system/oplus_adfr_config.json /data/system/oplus_adfr_config.json
 chown system.system /data/system/multimedia_pixelworks_game_apps.xml
+chown system.system /data/system/oplus_adfr_config.json

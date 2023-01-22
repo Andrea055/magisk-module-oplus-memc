@@ -1,0 +1,491 @@
+[
+    {
+        "filter_name": "oplus_adfr_config"
+    },
+    {
+        "version": 20210324
+    },
+    {
+        "sub_version": "SKY_20210324_toast"
+    },
+    {
+        "feature_sa": "true"
+    },
+    {
+        "feature_hist": "true"
+    },
+    {
+        "feature_oti": "true"
+    },
+    {
+        "feature_lfv": "true"
+    },
+    {
+        "feature_toast": "true"
+    },
+    {
+        "sa_backlight": true,
+        "sa_backlight_strategy": [
+            {
+                "fps": 120,
+                "list": [
+                    "50:120",
+                    "200:10",
+                    "400:5",
+                    "800:1"
+                ]
+            }
+        ]
+    },
+    {
+        "game_list": [
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.sgame"
+                ],
+                "available": true,
+                "hist": true,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.5,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 500,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [
+                    "40:0",
+                    "40:1",
+                    "40:15",
+                    "40:16"
+                ],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "44:16",
+                    "44:17"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.riotgames.league.wildrift",
+                    "com.riotgames.league.wildrifttw"
+                ],
+                "available": true,
+                "hist": true,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.75,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:5"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.supercell.brawlstars",
+                    "com.youzu.bs.nearme.gamecenter",
+                    "com.youzu.bs",
+                    "com.supercell.brawlstars"
+                ],
+                "available": false,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.99,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": false,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 30000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.speedmobile",
+                    "com.tencent.qqspmi"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.25,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:101"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:7"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 30000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.cod",
+                    "com.garena.game.codm",
+                    "com.activision.callofduty.shooter"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.6,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 150,
+                "bk": true,
+                "bk_value": 150,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 160
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.pubgmhd"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.24,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:101"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110",
+                    "4:111"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 150,
+                "bk": true,
+                "bk_value": 150,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "800:51"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 192
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.ig"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.4,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:101"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110",
+                    "4:111"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 150,
+                "bk": true,
+                "bk_value": 150,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "800:51"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 192
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.cf"
+                ],
+                "available": false,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.8,
+                "hist_max_gray_ratio": 0.8,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "ltm": true,
+                "ltm_value": 192
+            }
+        ]
+    },
+    {
+        "cover_list": [
+            "StatusBar",
+            "NavigationBar",
+            "ScreenDecorOverlay",
+            "ScreenDecorOverlayBottom",
+            "ScreenDecorOverlayExpand",
+            "ColorOSEdgeFloatBar",
+            "ColorOSEdgePanel",
+            "ColorSideGestureLeft",
+            "ColorSideGestureRight",
+            "GestureButtonRegion",
+            "PCB NO",
+            "oppo-game-sdk-buoy",
+            "Simple Banner Window",
+            "Notification Danmaku Window",
+            "Sprite",
+            "RotationLayer",
+            "com.coloros.screenshot",
+            "com.coloros.screenrecorder.FloatView",
+            "ColorVolumeDialogImpl",
+            "ColorOSZoomFloatHandleView",
+            "GameSpaceUIFloatBar",
+            "Toast",
+            "com.coloros.airview",
+            "com.coloros.airviewpanel",
+            "com.oppo.autotest.otestmonitor.floatwindow",
+            "AssistOverlayBottom",
+            "com.coloros.logkit"
+        ]
+    }
+]
